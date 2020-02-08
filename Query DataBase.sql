@@ -2,6 +2,7 @@ CREATE DATABASE NationalBasketballAssociation_DB;
 
 USE NationalBasketballAssociation_DB;
 
+--Creacion de tablas para el sistema 
 CREATE TABLE Sexos
 (
 	CodigoSexo INT IDENTITY(1,1) NOT NULL CONSTRAINT PK_Sexos PRIMARY KEY,
